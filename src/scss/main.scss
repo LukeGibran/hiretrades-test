@@ -1,0 +1,96 @@
+// Reset CSS
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  direction: ltr;
+  letter-spacing: 0.01rem;
+}
+
+body,
+input,
+button,
+select,
+textarea {
+  font: 600 1rem Helvetica;
+  color: #222;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+// End of Reset CSS
+
+// Global Style
+#app {
+  font-family: Rubik, Helvetica, Arial, serif;
+}
+
+.section {
+  padding: 4rem 0;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.container {
+  max-width: 1140px;
+
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.main-content {
+  width: 42%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+// End Global Style
+
+// Scrollbars
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: darken(#888, 10);
+}
+
+@import './variables';
+@import './mixins';
+@import './components/navbar';
+@import './components/button';
+@import './components/form';
+@import './components/card';
+@import './components/box';
+@import './pages/homepage/homepage';
+@import './components/footer';

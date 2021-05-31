@@ -1,0 +1,40 @@
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.467rem 1.5rem;
+  line-height: 1.6rem;
+  font-size: 1rem;
+  border-radius: 0.267rem;
+  cursor: pointer;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+
+  &.btn-secondary {
+    background-color: $secondary;
+    color: $white;
+    border: 1px solid $secondary;
+
+    &:hover {
+      background-color: #ff7575;
+      box-shadow: 0 4px 12px 0 rgba(255, 91, 92, 0.6) !important;
+    }
+  }
+  &.btn-outline-primary {
+    background-color: transparent;
+    color: $primary;
+    border: 1px solid $primary;
+
+    &:hover {
+      background-color: $primary;
+      color: $white;
+    }
+  }
+
+  &.btn-large {
+    width: 473px;
+    height: 60px;
+  }
+}

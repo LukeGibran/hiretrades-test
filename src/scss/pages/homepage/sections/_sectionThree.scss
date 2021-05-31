@@ -1,0 +1,19 @@
+section.section {
+  .container {
+    .main-column.sectionThree {
+      width: 100%;
+      .cards {
+        display: flex;
+        .left-card {
+          padding: 0 15px;
+          max-width: 66%;
+        }
+
+        .right-card {
+          padding: 0 15px;
+          max-width: 34%;
+        }
+      }
+    }
+  }
+}

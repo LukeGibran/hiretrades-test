@@ -1,0 +1,58 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  .form-wrapper {
+    padding: 1rem;
+    width: 100%;
+    @include centerAll;
+    flex-direction: column;
+
+    .form-group {
+      @include centerAll;
+      flex-direction: column;
+      width: 100%;
+      margin-bottom: 3.5rem;
+
+      label {
+        align-self: flex-start;
+        font-size: 18px;
+        text-transform: none;
+        color: $text-primary;
+        display: inline-block;
+        margin-bottom: 0.2rem;
+      }
+      .relative-container {
+        width: 100%;
+        position: relative;
+      }
+      input.form-control {
+        display: block;
+        font-weight: 400;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #dfe3e7;
+        height: 4rem;
+        padding: 0.5rem 1rem;
+        padding-right: 1.6rem;
+        padding-left: 2.5rem;
+        font-size: 1.25rem;
+        line-height: 1.5;
+        border-radius: 0.3rem;
+        width: 100%;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+          -webkit-box-shadow 0.15s ease-in-out;
+      }
+
+      .icon {
+        position: absolute;
+        top: 20px;
+        left: 12px;
+        i {
+          color: $text-secondary;
+        }
+      }
+    }
+  }
+}

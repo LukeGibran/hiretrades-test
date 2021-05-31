@@ -5544,6 +5544,11 @@ neo-async@^2.5.0, neo-async@^2.6.0, neo-async@^2.6.1:
   resolved "https://registry.npm.taobao.org/neo-async/download/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha1-tKr7k+OustgXTKU88WOrfXMIMF8=
 
+nice-try@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-3.0.0.tgz#38f7584ae0d3703cde8317bb78fdbc4ef6dffe40"
+  integrity sha512-JVAWBFZ6kFO/c6jtbcYAM4aAJK5XnAOyWAgBZ53V1HUNTfIjJdjXa96oWhDpegeQSRhTQXpOwU5bpYbzkkrcSA==
+
 no-case@^2.2.0:
   version "2.3.2"
   resolved "https://registry.npm.taobao.org/no-case/download/no-case-2.3.2.tgz?cache=0&sync_timestamp=1606867300466&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fno-case%2Fdownload%2Fno-case-2.3.2.tgz#60b813396be39b3f1288a4c1ed5d1e7d28b464ac"

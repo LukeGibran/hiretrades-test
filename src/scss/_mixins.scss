@@ -1,0 +1,10 @@
+@mixin centerAll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin pseudo {
+  content: '';
+  position: absolute;
+}
